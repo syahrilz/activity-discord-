@@ -7,6 +7,9 @@ from pypresence import Presence
 load_dotenv()
 TOKEN = os.getenv('TOKEN')
 
+if TOKEN is None:
+    raise ValueError("No TOKEN found in environment variables")
+
 client = discord.Client()
 
 @client.event
