@@ -1,0 +1,14 @@
+{
+  "name": "activity-discord",
+  "version": "1.0.0",
+  "description": "A Discord presence bot",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js"
+  },
+  "dependencies": {
+    "discord.js-selfbot-v11": "^12.0.0",
+    "discordrpcgenerator": "^1.0.5",
+    "dotenv": "^16.0.3"
+  }
+}
